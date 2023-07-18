@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+background-color: #93d9e9;
+display: flex;
+ align-items: center;
+justify-content: center;
+height: 100vh;
+
+}
+
+.caja1{
+width: 400px;
+height: 550px;
+background-color: white;
+border-radius: 25px;
+margin-right: 40px;
+
+}
+
+.caja1 .hola{
+background-color: salmon;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.caja1 P{
+    width: 200px;
+height: 30px;
+border-bottom: 1px solid lightgray;
+margin-top: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 100px;
+}
+
+.caja1 button{
+    background-color: lightgray;
+    width: 100px;
+    height: 40px;
+    border: none;
+    align-items: center;
+margin-top:100px;
+margin-left: 150px;
+}

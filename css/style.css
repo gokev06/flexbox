@@ -1,0 +1,36 @@
+section{
+    display:flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+ul li a{
+text-decoration: none;
+padding: 10px 20px;
+color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container .gris{
+    background-color: gray;
+    width: 30px;
+    height: 40px;
+    color: white;
+    margin-right: 5px;
+}
+
+.container .gris center{
+    margin-top: 10px;
+}
+
